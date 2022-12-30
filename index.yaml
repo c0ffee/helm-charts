@@ -14,7 +14,7 @@ entries:
         - kind: added
           description: Allow setting container restartPolicy
     apiVersion: v2
-    created: "2022-12-30T23:30:28.726709156Z"
+    created: "2022-12-30T23:31:55.480738705Z"
     description: Function library for Helm charts
     digest: 1a6372cc7099f8fb1f1fbf1d66622172763f441046eb618eccbd629957e49f14
     home: https://github.com/bjw-s/helm-charts/tree/main/charts/library/common
@@ -36,8 +36,43 @@ entries:
         - kind: changed
           description: Updated app to seafile 9.0.9
     apiVersion: v2
+    appVersion: 9.0.13
+    created: "2022-12-30T23:31:55.477283009Z"
+    dependencies:
+    - name: common
+      repository: https://c0ffee.github.io/helm-charts
+      version: 1.2.0
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://charts.bitnami.com/bitnami
+      version: 11.4.0
+    - condition: memcached.enabled
+      name: memcached
+      repository: https://charts.bitnami.com/bitnami
+      version: 6.3.1
+    description: seafile helm package
+    digest: bb1fc0502ef545087f6f84b0daee90199aa18d62db0a5985523ff1a8e9f9558e
+    home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/seafile
+    icon: https://manual.seafile.com/media/seafile-transparent-1024.png
+    keywords:
+    - seafile
+    kubeVersion: '>=1.22.0-0'
+    maintainers:
+    - email: 1407812+c0ffee@users.noreply.github.com
+      name: c0ffee
+    name: seafile
+    sources:
+    - https://github.com/haiwen/seafile-docker
+    urls:
+    - https://bjw-s.github.io/helm-charts/apps/seafile-5.0.0.tgz
+    version: 5.0.0
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: Updated app to seafile 9.0.9
+    apiVersion: v2
     appVersion: 9.0.9
-    created: "2022-12-30T23:30:28.723863784Z"
+    created: "2022-12-30T23:31:55.467249628Z"
     dependencies:
     - name: common
       repository: https://c0ffee.github.io/helm-charts
@@ -62,4 +97,4 @@ entries:
     urls:
     - https://bjw-s.github.io/helm-charts/apps/seafile-4.0.1.tgz
     version: 4.0.1
-generated: "2022-12-30T23:30:28.70353857Z"
+generated: "2022-12-30T23:31:55.459912824Z"
