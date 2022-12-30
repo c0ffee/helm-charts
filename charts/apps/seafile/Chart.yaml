@@ -1,10 +1,10 @@
 ---
 apiVersion: v2
-appVersion: 9.0.9
+appVersion: 9.0.13
 description: seafile helm package
 name: seafile
-version: 4.0.1
-kubeVersion: ">=1.16.0-0"
+version: 5.0.0
+kubeVersion: ">=1.22.0-0"
 keywords:
   - seafile
 home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/seafile
@@ -19,9 +19,13 @@ dependencies:
     repository: https://c0ffee.github.io/helm-charts
     version: 1.2.0
   - name: mariadb
-    version: 11.0.14
+    version: 11.4.0
     repository: https://charts.bitnami.com/bitnami
     condition: mariadb.enabled
+  - condition: memcached.enabled
+    name: memcached
+    repository: https://charts.bitnami.com/bitnami
+    version: 6.3.1
 annotations:
   artifacthub.io/changes: |-
     - kind: changed
