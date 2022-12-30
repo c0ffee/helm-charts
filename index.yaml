@@ -14,7 +14,7 @@ entries:
         - kind: added
           description: Allow setting container restartPolicy
     apiVersion: v2
-    created: "2022-12-30T23:13:03.263452925Z"
+    created: "2022-12-30T23:17:46.396336225Z"
     description: Function library for Helm charts
     digest: 1a6372cc7099f8fb1f1fbf1d66622172763f441046eb618eccbd629957e49f14
     home: https://github.com/bjw-s/helm-charts/tree/main/charts/library/common
@@ -30,4 +30,4 @@ entries:
     urls:
     - https://bjw-s.github.io/helm-charts/library/common-1.2.0.tgz
     version: 1.2.0
-generated: "2022-12-30T23:13:03.260545228Z"
+generated: "2022-12-30T23:17:46.393526884Z"
