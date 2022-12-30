@@ -14,7 +14,7 @@ entries:
         - kind: added
           description: Allow setting container restartPolicy
     apiVersion: v2
-    created: "2022-12-30T23:17:46.396336225Z"
+    created: "2022-12-30T23:19:10.669902371Z"
     description: Function library for Helm charts
     digest: 1a6372cc7099f8fb1f1fbf1d66622172763f441046eb618eccbd629957e49f14
     home: https://github.com/bjw-s/helm-charts/tree/main/charts/library/common
@@ -30,4 +30,36 @@ entries:
     urls:
     - https://bjw-s.github.io/helm-charts/library/common-1.2.0.tgz
     version: 1.2.0
-generated: "2022-12-30T23:17:46.393526884Z"
+  seafile:
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: Updated app to seafile 9.0.9
+    apiVersion: v2
+    appVersion: 9.0.9
+    created: "2022-12-30T23:19:10.666095576Z"
+    dependencies:
+    - name: common
+      repository: https://c0ffee.github.io/helm-charts
+      version: 1.2.0
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://charts.bitnami.com/bitnami
+      version: 11.0.14
+    description: seafile helm package
+    digest: 564fd8ee2338b08036fb6c2f3c7f4c430a7645e2e77e7220d4c140953ef2a847
+    home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/seafile
+    icon: https://manual.seafile.com/media/seafile-transparent-1024.png
+    keywords:
+    - seafile
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: 1407812+c0ffee@users.noreply.github.com
+      name: c0ffee
+    name: seafile
+    sources:
+    - https://github.com/haiwen/seafile-docker
+    urls:
+    - https://bjw-s.github.io/helm-charts/apps/seafile-4.0.1.tgz
+    version: 4.0.1
+generated: "2022-12-30T23:19:10.658703684Z"
