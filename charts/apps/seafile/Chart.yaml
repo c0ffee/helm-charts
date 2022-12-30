@@ -1,0 +1,28 @@
+---
+apiVersion: v2
+appVersion: 9.0.9
+description: seafile helm package
+name: seafile
+version: 4.0.1
+kubeVersion: ">=1.16.0-0"
+keywords:
+  - seafile
+home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/seafile
+icon: https://manual.seafile.com/media/seafile-transparent-1024.png
+sources:
+  - https://github.com/haiwen/seafile-docker
+maintainers:
+  - name: c0ffee
+    email: 1407812+c0ffee@users.noreply.github.com
+dependencies:
+  - name: common
+    repository: https://c0ffee.github.io/helm-charts
+    version: 0.1.0
+  - name: mariadb
+    version: 11.0.14
+    repository: https://charts.bitnami.com/bitnami
+    condition: mariadb.enabled
+annotations:
+  artifacthub.io/changes: |-
+    - kind: changed
+      description: Updated app to seafile 9.0.9
