@@ -9,7 +9,7 @@ image:
   # -- image repository
   repository: seafileltd/seafile-mc
   # -- image tag
-  tag: 9.0.9
+  #tag: 9.0.9
   # -- image pull policy
   pullPolicy: IfNotPresent
 
@@ -48,7 +48,7 @@ ingress:
 #    For more options see [mariadb chart documentation](https://github.com/bitnami/charts/tree/master/bitnami/mariadb)
 # @default -- See values.yaml
 mariadb:
-  enabled: false
+  enabled: true
   architecture: standalone
   auth:
     database: seafile
@@ -62,6 +62,7 @@ mariadb:
 
 memcached:
   enabled: true
+  fullnameOverride: memcached
 
 # -- Configure persistence settings for the chart under this key. Note that `shared` is a reserved keyword in the common-chart, make sure you use a diffrent key for persistance.
 # @default -- See values.yaml
