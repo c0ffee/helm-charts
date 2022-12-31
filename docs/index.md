@@ -1,6 +1,6 @@
 # Welcome
 
-Welcome to the documentation for the [bjw-s Helm charts](https://github.com/bjw-s/helm-charts) project.
+Welcome to the documentation for the [c0ffee Helm charts](https://github.com/c0ffee/helm-charts) project.
 
 ## Getting started
 
@@ -11,10 +11,10 @@ Refer to Helm's [documentation](https://helm.sh/docs/) to get started.
 ## Installation
 
 ```sh
-helm repo add bjw-s http://bjw-s.github.io/helm-charts/
+helm repo add c0ffee http://c0ffee.github.io/helm-charts/
 ```
 
-You can then run `helm search repo bjw-s` to search the charts.
+You can then run `helm search repo c0ffee` to search the charts.
 
 ## How do I find people running Kubernetes at home?
 
