@@ -10,7 +10,7 @@ entries:
             - name: Common library chart definition
               url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
     apiVersion: v2
-    created: "2022-12-31T00:20:02.724394856Z"
+    created: "2022-12-31T00:21:32.281890487Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -40,7 +40,7 @@ entries:
         - kind: added
           description: Allow setting container restartPolicy
     apiVersion: v2
-    created: "2022-12-31T00:20:02.721504816Z"
+    created: "2022-12-31T00:21:32.279155813Z"
     description: Function library for Helm charts
     digest: afac3e0af002b3548965e5adebac52263bf99a8a8ee3ecf14ecbf13a5472b299
     home: https://github.com/bjw-s/helm-charts/tree/main/charts/library/common
@@ -63,7 +63,7 @@ entries:
           description: Updated app to seafile 9.0.9
     apiVersion: v2
     appVersion: 9.0.13
-    created: "2022-12-31T00:20:02.717674962Z"
+    created: "2022-12-31T00:21:32.276617737Z"
     dependencies:
     - name: common
       repository: https://c0ffee.github.io/helm-charts
@@ -77,7 +77,7 @@ entries:
       repository: https://charts.bitnami.com/bitnami
       version: 6.3.1
     description: seafile helm package
-    digest: e278047c1c420727ec82e273755bc74b15eddacda4425b9d55c2106cbb7694a9
+    digest: 352919594b10ad16d13b6ae33a9b4929a2c9f37d336d2d1c22877a715e3ef1e7
     home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/seafile
     icon: https://manual.seafile.com/media/seafile-transparent-1024.png
     keywords:
@@ -98,7 +98,7 @@ entries:
           description: Updated app to seafile 9.0.9
     apiVersion: v2
     appVersion: 9.0.9
-    created: "2022-12-31T00:20:02.707004114Z"
+    created: "2022-12-31T00:21:32.265451043Z"
     dependencies:
     - name: common
       repository: https://c0ffee.github.io/helm-charts
@@ -123,4 +123,4 @@ entries:
     urls:
     - https://c0ffee.github.io/helm-charts/apps/seafile-4.0.1.tgz
     version: 4.0.1
-generated: "2022-12-31T00:20:02.684659504Z"
+generated: "2022-12-31T00:21:32.257991014Z"
