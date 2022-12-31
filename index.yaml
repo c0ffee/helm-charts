@@ -10,14 +10,14 @@ entries:
             - name: Common library chart definition
               url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
     apiVersion: v2
-    created: "2022-12-31T00:35:33.339554349Z"
+    created: "2022-12-31T00:36:57.317755673Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
       version: 1.2.0
     description: A common powered chart template. This can be useful for small projects
       that don't have their own chart.
-    digest: 205b162459aa0b0d5850bb0a375d5425c2e03b861a5ebf1b881a055167dcde48
+    digest: 4bd470e17560c9a9e90ffa6d41782ab9950ed52740878524f7713ab31e3c0843
     kubeVersion: '>=1.22.0-0'
     maintainers:
     - email: me@bjw-s.dev
@@ -40,7 +40,7 @@ entries:
         - kind: added
           description: Allow setting container restartPolicy
     apiVersion: v2
-    created: "2022-12-31T00:35:33.33578873Z"
+    created: "2022-12-31T00:36:57.314980297Z"
     description: Function library for Helm charts
     digest: eeb3dd638f792d867cdcd43f3267ba1ada4cef1b5a58e5eb520a2b35475297f5
     home: https://github.com/bjw-s/helm-charts/tree/main/charts/library/common
@@ -63,7 +63,7 @@ entries:
           description: Updated app to seafile 9.0.9
     apiVersion: v2
     appVersion: 9.0.13
-    created: "2022-12-31T00:35:33.333489696Z"
+    created: "2022-12-31T00:36:57.312477818Z"
     dependencies:
     - name: common
       repository: https://c0ffee.github.io/helm-charts
@@ -77,7 +77,7 @@ entries:
       repository: https://charts.bitnami.com/bitnami
       version: 6.3.1
     description: seafile helm package
-    digest: 352919594b10ad16d13b6ae33a9b4929a2c9f37d336d2d1c22877a715e3ef1e7
+    digest: fee498fd078682e63d6a41d05fbfa4496ebe335d407217135d9de43cf960499d
     home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/seafile
     icon: https://manual.seafile.com/media/seafile-transparent-1024.png
     keywords:
@@ -98,7 +98,7 @@ entries:
           description: Updated app to seafile 9.0.9
     apiVersion: v2
     appVersion: 9.0.9
-    created: "2022-12-31T00:35:33.324154852Z"
+    created: "2022-12-31T00:36:57.30161861Z"
     dependencies:
     - name: common
       repository: https://c0ffee.github.io/helm-charts
@@ -123,4 +123,4 @@ entries:
     urls:
     - https://c0ffee.github.io/helm-charts/apps/seafile-4.0.1.tgz
     version: 4.0.1
-generated: "2022-12-31T00:35:33.317918889Z"
+generated: "2022-12-31T00:36:57.293883176Z"
