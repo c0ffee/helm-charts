@@ -10,7 +10,7 @@ entries:
             - name: Common library chart definition
               url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
     apiVersion: v2
-    created: "2022-12-30T23:55:19.202731803Z"
+    created: "2022-12-31T00:20:02.724394856Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -40,7 +40,7 @@ entries:
         - kind: added
           description: Allow setting container restartPolicy
     apiVersion: v2
-    created: "2022-12-30T23:55:19.199182616Z"
+    created: "2022-12-31T00:20:02.721504816Z"
     description: Function library for Helm charts
     digest: afac3e0af002b3548965e5adebac52263bf99a8a8ee3ecf14ecbf13a5472b299
     home: https://github.com/bjw-s/helm-charts/tree/main/charts/library/common
@@ -63,7 +63,7 @@ entries:
           description: Updated app to seafile 9.0.9
     apiVersion: v2
     appVersion: 9.0.13
-    created: "2022-12-30T23:55:19.196240078Z"
+    created: "2022-12-31T00:20:02.717674962Z"
     dependencies:
     - name: common
       repository: https://c0ffee.github.io/helm-charts
@@ -98,7 +98,7 @@ entries:
           description: Updated app to seafile 9.0.9
     apiVersion: v2
     appVersion: 9.0.9
-    created: "2022-12-30T23:55:19.181932722Z"
+    created: "2022-12-31T00:20:02.707004114Z"
     dependencies:
     - name: common
       repository: https://c0ffee.github.io/helm-charts
@@ -123,4 +123,4 @@ entries:
     urls:
     - https://c0ffee.github.io/helm-charts/apps/seafile-4.0.1.tgz
     version: 4.0.1
-generated: "2022-12-30T23:55:19.173398832Z"
+generated: "2022-12-31T00:20:02.684659504Z"
